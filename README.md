@@ -11,7 +11,12 @@
 <img width="898" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/5c0b3571-d718-4553-be43-5fddc7eb8694">
 <br/>
 &emsp;&emsp;The first blank requires some text data transfered from lcd data in HPLC machine.
-<br/>
+<br/>Open folder contained lcd files, and choose all of files.
+![IMG_1149](https://github.com/JingxianFu/HPLCreader/assets/65908422/0361710b-b897-448c-8e44-890b0d691779)
+<br/>As this figure, generate ASCII files.
+![IMG_1150](https://github.com/JingxianFu/HPLCreader/assets/65908422/f64e8a1c-84ce-483e-bfbc-fce2c7762627)
+<br/>Output these ACSII files.
+![IMG_1151](https://github.com/JingxianFu/HPLCreader/assets/65908422/51c922c0-5b39-4441-bc6d-0360321aae61)
 &emsp;&emsp;The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. This file is a csv file, you can refer my example RT.csv in /HPLCreader/test folder.
 <br/>
 &emsp;&emsp;The third blank requires a number, and it can help determine the RT range to identify components.
