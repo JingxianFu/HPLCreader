@@ -4,7 +4,7 @@ Welcome to use this web application based on python that can help you to extract
 You can use it in my server. However, to use this application locally, it needs the python environments. Thus, I will teach you how to construct this web application in your PC.
 ## How to use
 ### Just try
-I constructed this web application in my local server (it is working in a docker of linux), so you can use your PC to connect WIFI "jxfu" and "jxfu_5G" to link my LAN(Local Area Network) and then enter [HPLCreader](http:\\198.168.6.110:1314/ "因为还没有域名备案，所以只能暴露LAN的ip在Github上") to use it.
+I constructed this web application in my local server (it is working in a docker of linux), so you can use your PC to connect WIFI "jxfu" and "jxfu_5G" to link my LAN(Local Area Network) and then enter [HPLCreader](http://198.168.6.110:1314/ "因为还没有域名备案，所以只能暴露LAN的ip在Github上") to use it.
 ### local use
 It is recommended that you use miniconda to construct this environment, because it can create a virtual evironment for you and this environment is of no ability to pollute your PC evironment. 
 1. Install conda
