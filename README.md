@@ -12,14 +12,14 @@ It is recommended that you use miniconda to construct this environment, because 
 You can download [Miniconda package](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ "mirrors from tsinghua university"), and 
 1. Conda installation
 - MacOS and Linux
-  '''
+  ```
   #For arm Mac
   wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py39_23.5.2-0-MacOSX-arm64.sh
   sh Miniconda3-py39_23.5.2-0-MacOSX-arm64.sh
   #For x86 Linux
   wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py39_23.5.2-0-Linux-x86_64.sh
   sh Miniconda3-py39_23.5.2-0-Linux-x86_64.sh
-  '''
+  ```
   It is only a example, and you can replace Miniconda3-py39_23.5.2-0-MacOSX-arm64.sh or Miniconda3-py39_23.5.2-0-Linux-x86_64.sh to which version you need.
 - Windows
   Click [miniconda](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py39_23.5.2-0-Windows-x86_64.exe) to download .exe file and then install it.
