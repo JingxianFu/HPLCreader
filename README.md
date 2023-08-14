@@ -7,7 +7,7 @@
 &emsp;&emsp;I constructed this web application in my local server (it is working in a docker of linux), so you can use your PC to connect WIFI "jxfu" and "jxfu_5G" to link my LAN(Local Area Network) and then enter [HPLCreader](http://198.168.6.110:1314/ "因为还没有域名备案，所以只能暴露LAN的ip在Github上") to use it.
 ### local use
 &emsp;&emsp;It is recommended that you use miniconda to construct this environment, because it can create a virtual evironment for you and this environment is of no ability to pollute your PC evironment. 
-1. Install conda
+#### Install conda
 <br/>You can download [Miniconda package](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ "mirrors from tsinghua university")
 - MacOS and Linux
 <br/>Conducting these commands in terminal(MacOS) or shell(Linux)
@@ -25,14 +25,14 @@
 &emsp;&emsp;It is only a example, and you can replace Miniconda3-py39_23.5.2-0-MacOSX-arm64.sh or Miniconda3-py39_23.5.2-0-Linux-x86_64.sh to which version you need.
 - Windows
 <br/>Just refer to this [tutorial](https://blog.csdn.net/VistorsYan/article/details/109138602). Just notice how to set environment variation.
-2. Create environment
+#### Create environment
 <br/>Conducting these commands in shell, and the python environment has been constructed.
    ```
    cd "HPLCreader's path"
    conda activate -n hplc python=3.11 -y
    pip install -r requirements.txt
    ```
-3. Start program
+#### Start program
 <br/>Conducting these commands in shell.
    ```
    cd "HPLCreader's path"
