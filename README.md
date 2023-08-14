@@ -10,7 +10,7 @@ It is recommended that you use miniconda to construct this environment, because 
 1. Install conda
    You can download [Miniconda package](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ "mirrors from tsinghua university")
 - MacOS and Linux
-  Conducting these commands in terminal(MacOS) or shell(Linux)
+Conducting these commands in terminal(MacOS) or shell(Linux)
   ```
   #For arm Mac
   wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py39_23.5.2-0-MacOSX-arm64.sh
@@ -24,7 +24,7 @@ It is recommended that you use miniconda to construct this environment, because 
   ```
   It is only a example, and you can replace Miniconda3-py39_23.5.2-0-MacOSX-arm64.sh or Miniconda3-py39_23.5.2-0-Linux-x86_64.sh to which version you need.
 - Windows
-  Just refer to this [tutorial](https://blog.csdn.net/VistorsYan/article/details/109138602). Just notice how to set environment variation.
+Just refer to this [tutorial](https://blog.csdn.net/VistorsYan/article/details/109138602). Just notice how to set environment variation.
 1. Create environment
    Conducting these commands in shell, and the python environment has been constructed.
    ```
