@@ -8,7 +8,7 @@
 ### local use
 &emsp;&emsp;It is recommended that you use miniconda to construct this environment, because it can create a virtual evironment for you and this environment is of no ability to pollute your PC evironment. 
 #### Install conda
-<br/>You can download [Miniconda package](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ "mirrors from tsinghua university")
+&emsp;&emsp;You can download [Miniconda package](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ "mirrors from tsinghua university")
 - MacOS and Linux
 <br/>Conducting these commands in terminal(MacOS) or shell(Linux)
   ```
@@ -26,14 +26,14 @@
 - Windows
 <br/>Just refer to this [tutorial](https://blog.csdn.net/VistorsYan/article/details/109138602). Just notice how to set environment variation.
 #### Create environment
-<br/>Conducting these commands in shell, and the python environment has been constructed.
+&emsp;&emsp;Conducting these commands in shell, and the python environment has been constructed.
    ```
    cd "HPLCreader's path"
    conda activate -n hplc python=3.11 -y
    pip install -r requirements.txt
    ```
 #### Start program
-<br/>Conducting these commands in shell.
+&emsp;&emsp;Conducting these commands in shell.
    ```
    cd "HPLCreader's path"
    conda activate -n hplc python=3.11 -y
