@@ -25,14 +25,14 @@
 &emsp;&emsp;It is only a example, and you can replace Miniconda3-py39_23.5.2-0-MacOSX-arm64.sh or Miniconda3-py39_23.5.2-0-Linux-x86_64.sh to which version you need.
 - Windows
 <br/>Just refer to this [tutorial](https://blog.csdn.net/VistorsYan/article/details/109138602). Just notice how to set environment variation.
-1. Create environment
+2. Create environment
 <br/>Conducting these commands in shell, and the python environment has been constructed.
    ```
    cd "HPLCreader's path"
    conda activate -n hplc python=3.11 -y
    pip install -r requirements.txt
    ```
-2. Start program
+3. Start program
 <br/>Conducting these commands in shell.
    ```
    cd "HPLCreader's path"
