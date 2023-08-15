@@ -28,7 +28,7 @@
 ### local use
 &emsp;&emsp;It is recommended that you use miniconda to construct this environment, because it can create a virtual evironment for you and this environment is of no ability to pollute your PC evironment. 
 #### Install conda
-&emsp;&emsp;You can download [Miniconda package](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ "mirrors from tsinghua university")
+&emsp;&emsp;First of all, You should download [Miniconda package](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ "mirrors from tsinghua university"), and it is easy for Linux and MacOS because "wget" command can download this package automatically.
 - MacOS and Linux
 <br/>Conducting these commands in terminal(MacOS) or shell(Linux)
   ```
