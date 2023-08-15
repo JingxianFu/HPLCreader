@@ -11,7 +11,7 @@
 <img width="850" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/b4d12c41-1195-4a35-8247-14b58e5cf020">
 
 <br/>
-- &emsp;&emsp;The first blank requires some text data transfered from lcd data in HPLC machine. You can fill one file or many files in this blank.
+- The first blank requires some text data transfered from lcd data in HPLC machine. You can fill one file or many files in this blank.
 
 1. Open folder contained lcd files, and choose all of files.
 <img width="693" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/34c5551c-72c7-4bcd-810d-db75d7386972">
@@ -22,10 +22,10 @@
 3. Output these ACSII files.
 <img width="810" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/f9d55830-4d28-44cf-a686-265055541c90">
 
-- &emsp;&emsp;The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. This file is a csv file, you can refer my example RT.csv in /HPLCreader/test folder. Just replace the string to your own parameters in RT.csv file, and upload changed RT file into this blank.
-- &emsp;&emsp;The third blank can group your text files you input in the first blank, and it requires that you print the key word of each group. For instance, if your text files are a1.txt, a2.txt, a3.txt, b1.txt, b2.txt and b3.txt (both of a and b have 3 repeats), you can fill "a b" in this blank to group a and b.
-- &emsp;&emsp;The 4st blank requires a number, and it can help determine the RT range to identify components. For instance, RT of 3.5 min determine compound A, and RT of 3.4 and 3.6 min can also represent compound A if you fill 0.1 here.
-- &emsp;&emsp;The final blank is a choice, you can choose the PDA channel you want. In my data, 1 is equal to PDA1, and PDA1 is the measured data in 370 nm wave of component.
+- The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. This file is a csv file, you can refer my example RT.csv in /HPLCreader/test folder. <br/>Just replace the string to your own parameters in RT.csv file, and upload changed RT file into this blank.
+- The third blank can group your text files you input in the first blank, and it requires that you print the key word of each group. For instance, if your text files are a1.txt, a2.txt, a3.txt, b1.txt, b2.txt and b3.txt (both of a and b have 3 repeats), you can fill "a b" in this blank to group a and b.
+- The 4st blank requires a number, and it can help determine the RT range to identify components. For instance, RT of 3.5 min determine compound A, and RT of 3.4 and 3.6 min can also represent compound A if you fill 0.1 here.
+- The final blank is a choice, you can choose the PDA channel you want. In my data, 1 is equal to PDA1, and PDA1 is the measured data in 370 nm wave of component.
 <br/><br/>
 ### local use
 &emsp;&emsp;It is recommended that you use miniconda to construct this environment, because it can create a virtual evironment for you and this environment is of no ability to pollute your PC evironment. 
