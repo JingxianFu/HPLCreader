@@ -7,8 +7,7 @@
 ### Just try
 &emsp;&emsp;I constructed this web application in my local server (it is working in a docker of linux), so you can use your PC to connect WIFI "jxfu" and "jxfu_5G" to link my LAN(Local Area Network) and then enter [HPLCreader](http://192.168.6.110:1314/ "因为还没有域名备案，所以只能暴露LAN的ip在Github上") to use it. Moreover, you can connect "HNZWY" network to access [HPLCreader](http://210.77.80.91:1314 "Server in HNZWY LAN").
 <br/>
-&emsp;&emsp;In website, you can see this page that contain 5 empty blanks, and it needs 5 parameters to fill them. 
-
+&emsp;&emsp;In website, you can see this page that contain 5 empty blanks, and it needs 5 parameters to fill them.
 <br/>
 + &emsp;&emsp;The first blank requires some text data transfered from lcd data in HPLC machine. You can fill one file or many files in this blank.
 <br/>&emsp;&emsp;Open folder contained lcd files, and choose all of files.
