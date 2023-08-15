@@ -18,6 +18,7 @@
 <br/>&emsp;&emsp;Output these ACSII files.
 ![IMG_1151](https://github.com/JingxianFu/HPLCreader/assets/65908422/51c922c0-5b39-4441-bc6d-0360321aae61)
 + &emsp;&emsp;The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. This file is a csv file, you can refer my example RT.csv in /HPLCreader/test folder.
+<br/>
 |  RT   | compounent  |
 | :---  | ---:  |
 | Residence Time 1 (min)  | compounent 1 |
