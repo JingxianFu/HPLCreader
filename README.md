@@ -51,7 +51,7 @@
 &emsp;&emsp;Conducting these commands in shell, and the python environment has been constructed.
    ```
    cd "HPLCreader's path"
-   conda activate -n hplc python=3.11 -y
+   conda create -n hplc python=3.11 -y
    pip install -r requirements.txt
    ```
 #### Start program
