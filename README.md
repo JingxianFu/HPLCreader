@@ -20,9 +20,10 @@
 + &emsp;&emsp;The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. This file is a csv file, you can refer my example RT.csv in /HPLCreader/test folder.
 <br/>
 |  RT   | compounent  |
-| :---  | ---:  |
+| :--:  | :--:  |
 | Residence Time 1 (min)  | compounent 1 |
 | Residence Time 2 (min)  | compounent 2 |
+<br/>
 + &emsp;&emsp;The third blank requires .
 + &emsp;&emsp;The 4st blank requires a number, and it can help determine the RT range to identify components.
 + &emsp;&emsp;The final blank is a choice, you can choose the PDA channel you want. In my data, 1 is equal to PDA1, and PDA1 can measure 370 nm wave of component.
