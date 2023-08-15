@@ -6,11 +6,6 @@
 ## How to use
 ### Just try
 &emsp;&emsp;I constructed this web application in my local server (it is working in a docker of linux), so you can use your PC to connect WIFI "jxfu" and "jxfu_5G" to link my LAN(Local Area Network) and then enter [HPLCreader](http://192.168.6.110:1314/ "因为还没有域名备案，所以只能暴露LAN的ip在Github上") to use it. Moreover, you can connect "HNZWY" network to access [HPLCreader](http://210.77.80.91:1314 "Server in HNZWY LAN").
-| 左对齐 | 右对齐 | 居中对齐 |
-| :----- | -----: | :------: |
-| 单元格 | 单元格 |  单元格  |
-| 单元格 | 单元格 |  单元格  |
-| 单元格 | 单元格 |  单元格  |
 <br/>
 &emsp;&emsp;In website, you can see this page that contain 5 empty blanks, and it needs 5 parameters to fill them. 
 <img width="898" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/5c0b3571-d718-4553-be43-5fddc7eb8694">
@@ -22,10 +17,11 @@
 ![IMG_1150](https://github.com/JingxianFu/HPLCreader/assets/65908422/f64e8a1c-84ce-483e-bfbc-fce2c7762627)
 <br/>&emsp;&emsp;Output these ACSII files.
 ![IMG_1151](https://github.com/JingxianFu/HPLCreader/assets/65908422/51c922c0-5b39-4441-bc6d-0360321aae61)
-+ &emsp;&emsp;The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. This file is a csv file, you can refer my example RT.csv in /HPLCreader/test folder.
-+ &emsp;&emsp;The third blank requires .
-+ &emsp;&emsp;The 4st blank requires a number, and it can help determine the RT range to identify components.
-+ &emsp;&emsp;The final blank is a choice, you can choose the PDA channel you want. In my data, 1 is equal to PDA1, and PDA1 can measure 370 nm wave of component.
++ &emsp;&emsp;The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. This file is a csv file, you can refer my example RT.csv in /HPLCreader/test folder. Just replace the string to your own parameters in RT.csv file, and upload changed RT file into this blank.
+<img width="115" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/d4c63526-9afa-4fdb-9c9f-648c3db3728d">
++ &emsp;&emsp;The third blank can group your text files you input in the first blank, and it requires that you print the key word of each group. For instance, if your text files are a1.txt, a2.txt, a3.txt, b1.txt, b2.txt and b3.txt (both of a and b have 3 repeats), you can fill "a b" in this blank to group a and b.
++ &emsp;&emsp;The 4st blank requires a number, and it can help determine the RT range to identify components. For instance, RT of 3.5 min determine compound A, and RT of 3.4 and 3.6 min can also represent compound A if you fill 0.1 here.
++ &emsp;&emsp;The final blank is a choice, you can choose the PDA channel you want. In my data, 1 is equal to PDA1, and PDA1 is the measured data in 370 nm wave of component.
 <br/><br/>
 ### local use
 &emsp;&emsp;It is recommended that you use miniconda to construct this environment, because it can create a virtual evironment for you and this environment is of no ability to pollute your PC evironment. 
