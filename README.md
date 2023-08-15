@@ -10,20 +10,20 @@
 &emsp;&emsp;In website, you can see this page that contain 5 empty blanks, and it needs 5 parameters to fill them. 
 <img width="898" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/5c0b3571-d718-4553-be43-5fddc7eb8694">
 <br/>
-+&emsp;&emsp;The first blank requires some text data transfered from lcd data in HPLC machine. You can fill one file or many files in this blank.
++ &emsp;&emsp;The first blank requires some text data transfered from lcd data in HPLC machine. You can fill one file or many files in this blank.
 <br/>&emsp;&emsp;Open folder contained lcd files, and choose all of files.
 ![IMG_1149](https://github.com/JingxianFu/HPLCreader/assets/65908422/0361710b-b897-448c-8e44-890b0d691779)
 <br/>&emsp;&emsp;As this figure, generate ASCII files.
 ![IMG_1150](https://github.com/JingxianFu/HPLCreader/assets/65908422/f64e8a1c-84ce-483e-bfbc-fce2c7762627)
 <br/>&emsp;&emsp;Output these ACSII files.
 ![IMG_1151](https://github.com/JingxianFu/HPLCreader/assets/65908422/51c922c0-5b39-4441-bc6d-0360321aae61)
-+&emsp;&emsp;The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. This file is a csv file, you can refer my example RT.csv in /HPLCreader/test folder.
++ &emsp;&emsp;The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. This file is a csv file, you can refer my example RT.csv in /HPLCreader/test folder.
 <br/>
-+&emsp;&emsp;The third blank requires .
++ &emsp;&emsp;The third blank requires .
 <br/>
-+&emsp;&emsp;The 4st blank requires a number, and it can help determine the RT range to identify components.
++ &emsp;&emsp;The 4st blank requires a number, and it can help determine the RT range to identify components.
 <br/>
-+&emsp;&emsp;The final blank is a choice, you can choose the PDA channel you want. In my data, 1 is equal to PDA1, and PDA1 can measure 370 nm wave of component.
++ &emsp;&emsp;The final blank is a choice, you can choose the PDA channel you want. In my data, 1 is equal to PDA1, and PDA1 can measure 370 nm wave of component.
 <br/><br/>
 ### local use
 &emsp;&emsp;It is recommended that you use miniconda to construct this environment, because it can create a virtual evironment for you and this environment is of no ability to pollute your PC evironment. 
