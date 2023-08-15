@@ -77,6 +77,8 @@ def train():
             RT_time = RT_C_li[0]
             C = RT_C_li[1]
             #try:
+            if ff['Threshold'] == '':
+                ff['Threshold'] = 0.1
             data = set(ff['f'], file_name_li=file_name_li, RT_time=float(RT_time), name_li=name_li, Threshold=float(ff['Threshold']), channel=ff['detect'])    
             fig = plt.figure(dpi=200)
             sns.barplot(data)
