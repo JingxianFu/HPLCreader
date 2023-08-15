@@ -23,7 +23,11 @@
 <img width="810" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/f9d55830-4d28-44cf-a686-265055541c90">
 
 2. The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. <br/>This file is a csv file, you can refer my example RT.csv in /HPLCreader/test folder. <br/>Just replace the string to your own parameters in RT.csv file, and upload changed RT file into this blank.
+<img width="821" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/ce123919-b57e-461b-ace2-b0cbc6addb5f">
+
 3. The third blank can group your text files you input in the first blank, and it requires that you print the key word of each group. <br/>For instance, if your text files are a1.txt, a2.txt, a3.txt, b1.txt, b2.txt and b3.txt (both of a and b have 3 repeats), you can fill "a b" in this blank to group a and b.
+<img width="827" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/c7c04bd3-057b-4af7-8216-ed6bd8c6f995">
+
 4. The 4st blank requires a number, and it can help determine the RT range to identify components. <br/>For instance, RT of 3.5 min determine compound A, and RT of 3.4 and 3.6 min can also represent compound A if you fill 0.1 here.
 5. The final blank is a choice, you can choose the PDA channel you want. In my data, 1 is equal to PDA1, and PDA1 is the measured data in 370 nm wave of component.
 <br/><br/>
