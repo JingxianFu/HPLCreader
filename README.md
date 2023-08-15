@@ -12,7 +12,7 @@
 <br/>
 + &emsp;&emsp;The first blank requires some text data transfered from lcd data in HPLC machine. You can fill one file or many files in this blank.
 <br/>&emsp;&emsp;Open folder contained lcd files, and choose all of files.
-![IMG_1149](https://github.com/JingxianFu/HPLCreader/assets/65908422/0361710b-b897-448c-8e44-890b0d691779)
+![step 1](https://github.com/JingxianFu/HPLCreader/assets/65908422/0361710b-b897-448c-8e44-890b0d691779)
 <br/>&emsp;&emsp;As this figure, generate ASCII files.
 ![IMG_1150](https://github.com/JingxianFu/HPLCreader/assets/65908422/f64e8a1c-84ce-483e-bfbc-fce2c7762627)
 <br/>&emsp;&emsp;Output these ACSII files.
