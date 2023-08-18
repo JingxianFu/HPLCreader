@@ -31,6 +31,7 @@
 4. The forth inputbox requires a number, and it may help to determine the RT range to identify compounds. <br/>For instance, if the determined compound fall on RT of 3.5 min, then you need to fill "0.1" in this input box to represent the confidence interval of this compound that can be adjusted from 3.4 to 3.6 min.
 <br/>If this input box is empty, it will be given a default parameter of 0.1 min.
 5. The final input box is an optional, you may choose any PDA channel you want. From the given data, 1 equals to PDA1 and PDA1 refers to the absorbance reading in 370nm wavelength on the biochemical compounds.
+6. Click submit to get your result.
 <br/><br/>
 ### Local use
 &emsp;&emsp;It is recommended that you use miniconda to construct this environment, because it can create a virtual evironment for you and this environment is of no ability to pollute your PC evironment. 
