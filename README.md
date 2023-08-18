@@ -14,11 +14,11 @@
 1. The first inputbox requires some ".txt" transferred from ".lcd" in HPLC machine. You can upload one or multiple files into this inputbox. There is a quick tutorial about how to get text file from lcd file.
 
 - In HPLC machine, open folder contained ".lcd" data, and choose all of documents. <br/>注：原始.lcd文件的保存路径不能有中文，例如/system/李同学/data/test.lcd是不行的，需要改成/system/studentLi/data/test.lcd，可能后续的运行路径也需要全英文路径。存在中文路径可能导致运行过程中出现乱码，这个问题我还没有解决。
-<img width="693" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/34c5551c-72c7-4bcd-810d-db75d7386972">
-<br/>
+<img width="693" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/34c5551c-72c7-4bcd-810d-db75d7386972"><br/>
+
 - According to the figure below, generate ASCII files. (In HPLC machine)
-<img width="845" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/1a4ae910-5eda-447a-9c0e-b657bf2086d2">
-<br/>
+<img width="845" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/1a4ae910-5eda-447a-9c0e-b657bf2086d2"><br/>
+
 - Output these ACSII files. (In HPLC machine)
 <img width="810" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/f9d55830-4d28-44cf-a686-265055541c90">
 
