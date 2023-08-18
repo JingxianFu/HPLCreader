@@ -32,7 +32,7 @@
 <br/>If this input box is empty, it will be given a default parameter of 0.1 min.
 5. The final input box is an optional, you may choose any PDA channel you want. From the given data, 1 equals to PDA1 and PDA1 refers to the absorbance reading in 370nm wavelength on the biochemical compounds.
 <br/><br/>
-### local use
+### Local use
 &emsp;&emsp;It is recommended that you use miniconda to construct this environment, because it can create a virtual evironment for you and this environment is of no ability to pollute your PC evironment. 
 #### Install conda
 &emsp;&emsp;First of all, You should download [Miniconda package](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ "mirrors from tsinghua university"), and it is easy for Linux and MacOS because "wget" command can download this package automatically.
