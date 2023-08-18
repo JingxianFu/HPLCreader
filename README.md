@@ -11,7 +11,7 @@
 <img width="850" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/b4d12c41-1195-4a35-8247-14b58e5cf020">
 
 <br/>
-1. The first blank requires some text data transfered from lcd data in HPLC machine. You can upload one file or many files to this blank. There is a quick tutorial about how to get text file from lcd file.
+1. The first inputbox requires some text data transfered from lcd data in HPLC machine. You can upload one file or many files to this inputbox. There is a quick tutorial about how to get text file from lcd file.
 
 - In HPLC machine, open folder contained lcd files, and choose all of the files. <br/>注：原始.lcd文件的保存路径不能有中文，例如/system/李同学/data/test.lcd是不行的，需要改成/system/studentLi/data/test.lcd，可能后续的运行路径也需要全英文路径。存在中文路径可能导致运行过程中出现乱码，这个问题我还没有解决。
 <img width="693" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/34c5551c-72c7-4bcd-810d-db75d7386972">
@@ -22,14 +22,15 @@
 - Output these ACSII files. (In HPLC machine)
 <img width="810" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/f9d55830-4d28-44cf-a686-265055541c90">
 
-2. The second blank requires a RT file that can locate your component and extract the effective data, such as peak area of this component. <br/>This type of file is csv, you can refer to my example "RT.csv" in /HPLCreader/test folder. <br/>Just replace the string with your own parameters in "RT.csv", and upload this modified "RT.csv" into the blank.
+2. The second inputbox requires a RT file that can locate your biochemical compound and extract the effective data, such as peak area of this compound. <br/>This type of file is csv, you can refer to my example "RT.csv" in /HPLCreader/test folder. <br/>Just replace the string with your own parameters in "RT.csv", and upload this modified "RT.csv" into the blank.
 <img width="821" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/ce123919-b57e-461b-ace2-b0cbc6addb5f">
 
-3. The third blank can group your text files that you input in the first blank, and it requires you to print the key word of each group. <br/>For instance, if your text files are a1.txt, a2.txt, a3.txt, b1.txt, b2.txt and b3.txt (both of a and b have 3 repeats), you can fill "a b"(sample A + blank space + sample B) in this blank to group a and b.
+3. The third blank can group your text files that you input in the first inputbox, and it requires you to print the keyword of each group. <br/>For instance, if your text files are "a1.txt, a2.txt, a3.txt" & "b1.txt, b2.txt, b3.txt" (both of a and b have 3 replicates), you can fill "a b"(sample A + blank space + sample B) in this inputbox to differentiate "a" and "b".
 <img width="827" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/c7c04bd3-057b-4af7-8216-ed6bd8c6f995">
 
-4. The 4st blank requires a number, and it can help determine the RT range to identify components. <br/>For instance, RT of 3.5 min determine compound A, and RT of 3.4 and 3.6 min can also represent compound A if you fill 0.1 here. <br/>However, if you do not fill this blank, it will give a default parameter of 0.1 min.
-5. The final blank is also optional, you can choose the PDA channel you want. In my data, 1 is equal to PDA1, and PDA1 is the measured data in 370 nm wave of component.
+4. The forth inputbox requires a number, and it may help to determine the RT range to identify compounds. <br/>For instance, if the determined compound fall on RT of 3.5 min, then you need to fill "0.1" in this input box to represent the confidence interval of this compound that can be adjusted from 3.4 to 3.6 min.
+<br/>If this input box is empty, it will be given a default parameter of 0.1 min.
+5. The final input box is an optional, you may choose any PDA channel you want. From the given data, 1 equals to PDA1 and PDA1 refers to the absorbance reading in 370nm wavelength on the biochemical compounds.
 <br/><br/>
 ### local use
 &emsp;&emsp;It is recommended that you use miniconda to construct this environment, because it can create a virtual evironment for you and this environment is of no ability to pollute your PC evironment. 
