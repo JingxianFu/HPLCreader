@@ -64,13 +64,13 @@
 &emsp;&emsp;Conducting these commands in shell.
    ```
    cd "HPLCreader's path"
-   conda activate -n hplc python=3.11 -y
+   conda create -n hplc python=3.11 -y
    pip install -r requirements.txt
    ```
 &emsp;&emsp;Get the [python script](https://github.com/JingxianFu/HPLCreader/archive/refs/heads/main.zip) from Github.
    ```
    # cd to path of main.py, and run these commands
-   conda activate -n hplc python=3.11 -y
+   conda activate hplc
    python main.py
    # control + C can terminate this script
    # After begenning, it will give you an ip address to access, just like "Use http://192.168.6.126:1314/ to access the application ..."
