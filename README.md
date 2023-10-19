@@ -5,7 +5,7 @@
 * * *
 ## How to use
 ### Just try
-&emsp;&emsp;I constructed this web application on my local server (it is working in a docker of linux), so you can use your PC to connect to WIFI "jxfu" and "jxfu_5G" to link my LAN(Local Area Network) and then enter [HPLCreader_jxfu](http://192.168.6.110:1314/ "因为还没有域名备案，所以只能暴露LAN的ip在Github上") to use it. Moreover, you can also connect to "HNZWY" network to access [HPLCreader_HWZWY](http://210.77.80.91:1314 "Server in HNZWY LAN").
+&emsp;&emsp;I constructed this web application on my local server (it is working in a docker of linux), so you can use your PC to connect to WIFI "jxfu" and "jxfu_5G" to link my LAN(Local Area Network) and then enter [HPLCreader_jxfu](http://jxfu.xyz:1314/ "因为还没有域名备案，所以只能暴露LAN的ip在Github上") to use it. Moreover, you can also connect to "HNZWY" network to access [HPLCreader_HWZWY](http://jxfu.xyz:1314 "Server in HNZWY LAN").
 <br/>
 &emsp;&emsp;On the website, you can see this page that contain 5 empty blanks, and it needs 5 parameters to fill them.
 <img width="850" alt="image" src="https://github.com/JingxianFu/HPLCreader/assets/65908422/b4d12c41-1195-4a35-8247-14b58e5cf020">
